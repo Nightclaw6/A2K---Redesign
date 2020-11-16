@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="css/grid-gallery.css">
     <title>A2K - V2</title>
 </head>
 <body>
@@ -47,24 +48,25 @@
                 <li class="list" data-filter="all"><strong>All</strong></li>
             </ul>
         </section>
-
-        <div class="projects">
-            <div class="itemBox 2008"><img src="Images/Portfolio/2008/Bicycle_Factory/img/BF-02.jpg"></div>
-            <div class="itemBox 2008"><img src="Images/Portfolio/2008/Collingwood/img/Alta_Rd_10.jpg"></div>
-            <div class="itemBox 2008"><img src="Images/Portfolio/2008/Collingwood/img/Alta_Rd_10.jpg"></div>
-            <div class="itemBox 2009"><img src="Images/Portfolio/2009/Chapel/ch_01.jpg"></div>
-            <div class="itemBox 2009"><img src="Images/Portfolio/2009/Comanche/img/Comanche_Road_01.jpg"></div>
-            <div class="itemBox 2009"><img src="Images/Portfolio/2009/Cottage_R_n_A/img/Cottage_RnA_01.jpg"></div>
-            <div class="itemBox 2009"><img src="Images/Portfolio/2009/Mill_St/img/MS_01.jpg"></div>
-            <div class="itemBox 2010"><img src="Images/Portfolio/2010/Brawley_Ave/img/brawley_01.jpg"></div>
-            <div class="itemBox 2010"><img src="Images/Portfolio/2010/Church/img/Church_01.jpg"></div>
-            <div class="itemBox 2010"><img src="Images/Portfolio/2010/Deanbank_dr/img/DB-01.jpg"></div>
-            <div class="itemBox 2010"><img src="Images/Portfolio/2010/John_st/img/J_01.jpg"></div>
-            <div class="itemBox 2010"><img src="Images/Portfolio/2010/Kennard_Ave/img/kennard_av_01.jpg"></div>
-            <div class="itemBox 2010"><img src="Images/Portfolio/2010/Searle_Ave_2/img/S2-01.jpg"></div>
+        <div id="gg-screen"></div>
+        <div class="gg-box">
+            <div class="projects">
+                <div class="gg-element itemBox 2008"><img src="Images/Portfolio/2008/Bicycle_Factory/img/BF-02.jpg"></div>
+                <div class="gg-element itemBox 2008"><img src="Images/Portfolio/2008/Collingwood/img/Alta_Rd_10.jpg"></div>
+                <div class="gg-element itemBox 2008"><img src="Images/Portfolio/2008/Collingwood/img/Alta_Rd_10.jpg"></div>
+                <div class="gg-element itemBox 2009"><img src="Images/Portfolio/2009/Chapel/ch_01.jpg"></div>
+                <div class="gg-element itemBox 2009"><img src="Images/Portfolio/2009/Comanche/img/Comanche_Road_01.jpg"></div>
+                <div class="gg-element itemBox 2009"><img src="Images/Portfolio/2009/Cottage_R_n_A/img/Cottage_RnA_01.jpg"></div>
+                <div class="gg-element itemBox 2009"><img src="Images/Portfolio/2009/Mill_St/img/MS_01.jpg"></div>
+                <div class="gg-element itemBox 2010"><img src="Images/Portfolio/2010/Brawley_Ave/img/brawley_01.jpg"></div>
+                <div class="gg-element itemBox 2010"><img src="Images/Portfolio/2010/Church/img/Church_01.jpg"></div>
+                <div class="gg-element itemBox 2010"><img src="Images/Portfolio/2010/Deanbank_dr/img/DB-01.jpg"></div>
+                <div class="gg-element itemBox 2010"><img src="Images/Portfolio/2010/John_st/img/J_01.jpg"></div>
+                <div class="gg-element itemBox 2010"><img src="Images/Portfolio/2010/Kennard_Ave/img/kennard_av_01.jpg"></div>
+                <div class="gg-element itemBox 2010"><img src="Images/Portfolio/2010/Searle_Ave_2/img/S2-01.jpg"></div>
+            </div>
         </div>
     </div>
-
     <div id="footer">
         <img id="footerImg" src="Images/footerMiniLogo.png" alt="A2K"> Created by A2K design group, 2010. All rights reserved.
     </div>
@@ -77,6 +79,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/grid-gallery.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){
